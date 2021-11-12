@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typescript</title>
+</head>
+
+<body>
+
+
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="./introducao/basico.js"></script>
+    <script src="./tipos/tipos.js"></script>
+    <script src="tipos/desafio.js"></script>
+    <script src="tipos/desafio2.js"></script>
+    <script src="compilador/compilador.js"></script>
+    <script src="ecmascript/ecmascript.js"></script>
+    <script src="ecmascript/desafios.js"></script>
+    <script src="classes-exercicios/classes-exercicios.js"></script>
+    <script src="classes-exercicios/desafioProduto.js"></script>
+    <script src="classes-exercicios/desafio2.js"></script>
+    <script src="namespace/geometriaCir.js"></script>
+    <script src="namespace/geometriaRet.js"></script>
+    <script src="namespace/namespace.js"></script>
+    <script>
+        SystemJS.config({
+            baseUrl: '/modulos',
+            packages: {
+                '/modulos': {
+                    defaultJSExtension: true
+                }
+            }
+        })
+
+        SystemJS.import('./modulos/modulos.js')
+    </script>
+    <script src="interfaces-exercicios/interfaces-exercicios.js"></script>
+
+</body>
+
+</html>
