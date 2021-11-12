@@ -1,17 +1,17 @@
 class Data {
   //Publicos por padrao
   dia: number;
-  public mes: string;
+  public mes: number;
   ano: number;
 
-  constructor(dia: number = 1, mes: string = "janeiro", ano: number = 1970) {
+  constructor(dia: number = 1, mes: number = 1, ano: number = 1970) {
     this.dia = dia;
     this.mes = mes;
     this.ano = ano;
   }
 }
 
-const aniversario = new Data(14, "julho", 2002);
+const aniversario = new Data(14, 12, 2002);
 aniversario.dia = 14;
 
 const casamento = new Data(); //omitindo ()

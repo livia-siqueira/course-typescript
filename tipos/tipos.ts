@@ -61,10 +61,10 @@ console.log(carro)
 
 //tipos em funções
 
-function myName(): string{
+function myNameTR(): string{
     return nome;
 }
-console.log(myName())
+console.log(myNameTR())
 
 function digaOi(): void{
     console.log('Oi')

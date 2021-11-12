@@ -11,10 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^3.6.0",
     "live-server": "^1.2.1",
     "systemjs": "^0.21.5"
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.8",
     "@types/node": "^16.11.7"
   }
 }
